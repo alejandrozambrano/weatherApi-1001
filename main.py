@@ -8,7 +8,7 @@ load_dotenv()
 app = FastAPI()
 
 CITY = 'Casablanca'
-API_KEY = 'b56575bb2735754fa0455c45d4b5ed6e'
+API_KEY = '4774727062d12e444a0793b03a822340'
 
 def get_weather():
     weather_url =f"http://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}&units=metric"
